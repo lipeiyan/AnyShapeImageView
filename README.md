@@ -14,8 +14,9 @@ p.s. both parameters are for image resource,the background color in the shape pi
 ### shapePic来设置形状，backgroundPic 设置背景，然后就可以把背景图设置成任意形状。
 注：这两个属性都是图片，设置形状的图片的背景色是透明，不是白色
 
-Download
-Gradle
+# Download
+## Gradle
+
 Add it in your root build.gradle at the end of repositories:
 ```
 	allprojects {
@@ -25,13 +26,14 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
 ```
-Step 2. Add the dependency
+
+
 ```
 	dependencies {
 	        compile 'com.github.lipeiyan:AnyShapeImageView:0.0.1'
 	}
 ```
-Maven
+## Maven
 ```
 	<repositories>
 		<repository>
@@ -40,7 +42,8 @@ Maven
 		</repository>
 	</repositories>
 ```
-Step 2. Add the dependency
+
+
 ```
 	<dependency>
 	    <groupId>com.github.lipeiyan</groupId>
