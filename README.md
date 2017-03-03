@@ -13,3 +13,38 @@ android ImageView for any shape
 p.s. both parameters are for image resource,the background color in the shape picture is transparent，not white
 ### shapePic来设置形状，backgroundPic 设置背景，然后就可以把背景图设置成任意形状。
 注：这两个属性都是图片，设置形状的图片的背景色是透明，不是白色
+
+Download
+Gradle
+Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+	dependencies {
+	        compile 'com.github.lipeiyan:AnyShapeImageView:0.0.1'
+	}
+```
+Maven
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+Step 2. Add the dependency
+```
+	<dependency>
+	    <groupId>com.github.lipeiyan</groupId>
+	    <artifactId>AnyShapeImageView</artifactId>
+	    <version>0.0.1</version>
+	</dependency>
+```
